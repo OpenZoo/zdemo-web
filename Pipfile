@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+alembic = "==1.7.*"
+asyncpg = "==0.25.*"
+fastapi = "==0.70.*"
+Jinja2 = "==3.0.*"
+psycopg2 = "==2.9.*"
+sqlalchemy = "==1.4.*"
+uvicorn = "==0.15.*"
+# Zookeeper dependency
+Pillow = "==8.4.*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
